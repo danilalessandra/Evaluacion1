@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f2; /* Fondo rosa clarito */
+    margin: 0;
+}
+
+header {
+    background-color: #ffb3d1; /* Rosa pastel para el encabezado */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 20px auto; /* Agregado margen superior e inferior */
+    text-align: center;
+    padding: 20px;
+    background-color: #ffb3d1; /* Rosa pastel para el perfil */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.profile-container img {
+    width: 100%;
+    max-width: 200px; /* Limitar el ancho de la imagen */
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-container h2 {
+    color: white; /* Blanco para el nombre completo */
+    font-size: 24px;
+}
+
+.profile-container p {
+    color: white; /* Blanco para la descripción */
+}
+
+.profile-container h3 {
+    color: #ff00cc; /* Rosa chicle para los títulos de habilidades */
+    font-size: 20px;
+}
+
+.profile-container ol {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-container li {
+    color: white; /* Blanco para el texto dentro de la lista */
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #ff00cc; /* Rosa chicle para el pie de página */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white; /* Color inicial blanco para los enlaces */
+    text-decoration: none; /* Elimina el subrayado por defecto */
+    transition: color 0.3s ease; /* Agrega transición al color */
+}
+
+footer a:hover {
+    color: #ffc2e0; /* Cambia el color al pasar el cursor sobre los enlaces */
+}
+
